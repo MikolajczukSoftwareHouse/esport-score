@@ -1,0 +1,8 @@
+{
+  "name": "esport-score",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/esport-score",
+  "projectType": "application",
+  "targets": {},
+  "tags": []
+}

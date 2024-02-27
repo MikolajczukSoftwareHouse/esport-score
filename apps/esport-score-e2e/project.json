@@ -1,0 +1,7 @@
+{
+  "name": "esport-score-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/esport-score-e2e/src",
+  "targets": {},
+  "implicitDependencies": ["esport-score"]
+}
