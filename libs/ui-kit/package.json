@@ -1,0 +1,28 @@
+{
+  "name": "@esport-score/ui",
+  "version": "0.0.1",
+  "sideEffects": [
+    "*.css"
+  ],
+  "private": true,
+  "types": "./types/index",
+  "main": "dist/cjs",
+  "module": "dist/esm",
+  "module:jsx": "dist/jsx",
+  "files": [
+    "types",
+    "dist"
+  ],
+  "scripts": {
+    "build": "tamagui-build",
+    "watch": "tamagui-build --watch"
+  },
+  "dependencies": {
+    "@esport-score/config": "*",
+    "tamagui": "^1.91.3",
+    "@tamagui/shorthands": "^1.91.3",
+    "@tamagui/theme-base": "^1.91.3",
+    "@tamagui/build": "1.91.3"
+  },
+  "devDependencies": {}
+}
