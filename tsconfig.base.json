@@ -16,8 +16,7 @@
     "baseUrl": ".",
     "paths": {
       "@esport-score/ui-kit": ["libs/ui-kit/src/index.ts"],
-      "@esport-score/ui-kit/server": ["libs/ui-kit/src/server.ts"],
-      "@esport-score/ui": ["libs/ui-kit/src/index.ts"]
+      "@esport-score/ui-kit/server": ["libs/ui-kit/src/server.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

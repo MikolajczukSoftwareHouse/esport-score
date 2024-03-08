@@ -1,7 +1,6 @@
 import { config } from './AppTheme';
 import { TamaguiProvider } from 'tamagui';
 
-import React from 'react';
 export const AppProvider = ({
   theme = 'dark',
   children,

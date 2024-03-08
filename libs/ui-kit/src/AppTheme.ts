@@ -50,7 +50,5 @@ export const useTheme = () => {
   return result as typeof config.tokens;
 };
 
-export { config };
 const AppTheme = config;
-export { AppTheme };
-export default config;
+export { config, AppTheme };

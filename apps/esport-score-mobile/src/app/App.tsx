@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import { SafeAreaView, ScrollView } from 'react-native';
 import { Text } from 'tamagui';
-import { AppProvider } from '@esport-score/ui';
+import { AppProvider } from '@esport-score/ui-kit';
 
 export const App = () => {
   const scrollViewRef = useRef<null | ScrollView>(null);
@@ -18,7 +18,7 @@ export const App = () => {
           }}
           contentInsetAdjustmentBehavior="automatic"
         >
-          <Text color="$primary">testtest</Text>
+          <Text color="$primary">gówno</Text>
         </ScrollView>
       </SafeAreaView>
     </AppProvider>

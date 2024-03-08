@@ -19,9 +19,8 @@ module.exports = (api) => {
           include: 'TAMAGUI_TARGET',
         },
       ],
-      'babel-preset-expo',
     ],
 
-    presets: ['module:metro-react-native-babel-preset'],
+    presets: ['module:metro-react-native-babel-preset', 'babel-preset-expo'],
   };
 };
