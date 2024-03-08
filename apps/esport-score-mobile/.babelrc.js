@@ -21,6 +21,6 @@ module.exports = (api) => {
       ],
     ],
 
-    presets: ['module:metro-react-native-babel-preset', 'babel-preset-expo'],
+    presets: ['babel-preset-expo'],
   };
 };
