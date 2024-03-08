@@ -1,5 +1,3 @@
-//! debug
-/* eslint-disable @nrwl/nx/enforce-module-boundaries */
 import { shorthands } from '@tamagui/shorthands';
 import { themes, tokens as tamaguiTokens } from '@tamagui/theme-base';
 import { useMemo } from 'react';
@@ -33,10 +31,6 @@ const config = createTamagui({
   shorthands,
 });
 
-/**
- *
- * @returns Workaround function untill this get fixed https://github.com/tamagui/tamagui/issues/212
- */
 export const useTheme = () => {
   const tokens = getTokens();
 
@@ -53,7 +47,6 @@ export const useTheme = () => {
       return prev;
     }, {});
   }, [tokens]);
-  // console.log('result is');
   return result as typeof config.tokens;
 };
 

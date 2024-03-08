@@ -13,13 +13,13 @@ module.exports = (api) => {
           disableExtraction: process.env.NODE_ENV === 'development',
         },
       ],
-      // be sure to set TAMAGUI_TARGET
       [
         'transform-inline-environment-variables',
         {
           include: 'TAMAGUI_TARGET',
         },
       ],
+      'babel-preset-expo',
     ],
 
     presets: ['module:metro-react-native-babel-preset'],

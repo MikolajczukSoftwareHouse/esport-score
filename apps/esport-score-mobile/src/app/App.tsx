@@ -1,9 +1,6 @@
-/* eslint-disable jsx-a11y/accessible-emoji */
 import React, { useRef } from 'react';
-import { SafeAreaView, ScrollView, View, StatusBar } from 'react-native';
+import { SafeAreaView, ScrollView } from 'react-native';
 import { Text } from 'tamagui';
-/* eslint-disable jsx-a11y/accessible-emoji */
-/* eslint-disable jsx-a11y/accessible-emoji */
 import { AppProvider } from '@esport-score/ui';
 
 export const App = () => {
