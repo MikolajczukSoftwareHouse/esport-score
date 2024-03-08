@@ -5,7 +5,7 @@ export const AppProvider = ({
   theme = 'dark',
   children,
 }: {
-  children: any;
+  children: React.ReactNode;
   theme?: string;
 }) => {
   return (
