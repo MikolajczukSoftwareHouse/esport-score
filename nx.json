@@ -15,7 +15,7 @@
       "!{projectRoot}/**/*.cy.[jt]s?(x)",
       "!{projectRoot}/cypress.config.[jt]s"
     ],
-    "sharedGlobals": []
+    "sharedGlobals": ["{workspaceRoot}/go.work"]
   },
   "plugins": [
     {
@@ -58,7 +58,8 @@
         "buildTargetName": "build",
         "submitTargetName": "submit"
       }
-    }
+    },
+    "@nx-go/nx-go"
   ],
   "generators": {
     "@nx/next": {
